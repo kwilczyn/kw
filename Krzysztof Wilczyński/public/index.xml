@@ -12,7 +12,7 @@
       <link>/kw/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/kw/projects/</guid>
-      <description>Unfortunately, most of the projects I&amp;rsquo;ve been professionally involved in cannot be cited on this page due to confidentiality agreements signed with my previous employers. However, this page will showcase my private, smaller projects.&#xA;Estetyczna Tychy This is a static web application built from scratch using Vanilla JS and SCSS. Why Vanilla JS? Because I wanted to see if I could write this type of application without using modern frameworks like Vue.</description>
+      <description>Unfortunately, most of the projects I&amp;rsquo;ve been professionally involved in cannot be cited on this page due to confidentiality agreements signed with my previous employers. However, this page will showcase my private, smaller projects.&#xA;Vue.js Snake! This is a simple snake game inspired by mobile games from early 2000s. Help the snake to grow up by eating apples from the board. Use the fake phone buttons or real WASD or arrows to control.</description>
     </item>
   </channel>
 </rss>
