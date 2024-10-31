@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to my showcase! on Krzysztof Wilczyński</title>
-    <link>/kw/</link>
+    <link>//:1313/</link>
     <description>Recent content in Welcome to my showcase! on Krzysztof Wilczyński</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="/kw/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
-      <link>/kw/projects/</link>
+      <link>//:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/kw/projects/</guid>
-      <description>Unfortunately, most of the projects I&amp;rsquo;ve been professionally involved in cannot be cited on this page due to confidentiality agreements signed with my previous employers. However, this page will showcase my private, smaller projects.&#xA;Vue.js Snake! Live Preview &amp;lt;&amp;mdash;&#xA;GitHub Repository &amp;lt;&amp;mdash;&#xA;This is a simple snake game inspired by mobile games from early 2000s. Help the snake to grow up by eating apples from the board. Use the fake phone buttons or real WASD or arrows to control.</description>
+      <guid>//:1313/projects/</guid>
+      <description>Unfortunately, most of the projects I&amp;rsquo;ve been professionally involved in cannot be cited on this page due to confidentiality agreements signed with my previous employers. However, this page will showcase my private, smaller projects.&#xA;Easy Kanban This project is a simple web application written in Vue.js (3) for creating your own digital Kanban Boards. A Kanban board is a visual project management tool that helps teams organize and track their work.</description>
     </item>
   </channel>
 </rss>

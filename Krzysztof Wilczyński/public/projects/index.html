@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <title>Projects // Krzysztof Wilczyński</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Krzysztof Wilczyński" />
     <meta name="description" content="" />
-    <link rel="stylesheet" href="/kw/css/main.min.5b1fcc8902588589c4767187402a3c29f8b8d7a6fdef6d9f8f77045bb0d14fee.css" />
+    <link rel="stylesheet" href="/css/main.min.5b1fcc8902588589c4767187402a3c29f8b8d7a6fdef6d9f8f77045bb0d14fee.css" />
     
 
     
@@ -19,17 +19,15 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Projects">
   <meta name="twitter:description" content="Unfortunately, most of the projects I’ve been professionally involved in cannot be cited on this page due to confidentiality agreements signed with my previous employers. However, this page will showcase my private, smaller projects.
-Vue.js Snake! Live Preview &lt;—
-GitHub Repository &lt;—
-This is a simple snake game inspired by mobile games from early 2000s. Help the snake to grow up by eating apples from the board. Use the fake phone buttons or real WASD or arrows to control.">
+Easy Kanban GitHub Repository &lt;—
+This project is a simple web application written in Vue.js (3) for creating your own digital Kanban Boards. A Kanban board is a visual project management tool that helps teams organize and track their work.">
 
-    <meta property="og:url" content="/kw/projects/">
+    <meta property="og:url" content="//:1313/projects/">
   <meta property="og:site_name" content="Krzysztof Wilczyński">
   <meta property="og:title" content="Projects">
   <meta property="og:description" content="Unfortunately, most of the projects I’ve been professionally involved in cannot be cited on this page due to confidentiality agreements signed with my previous employers. However, this page will showcase my private, smaller projects.
-Vue.js Snake! Live Preview &lt;—
-GitHub Repository &lt;—
-This is a simple snake game inspired by mobile games from early 2000s. Help the snake to grow up by eating apples from the board. Use the fake phone buttons or real WASD or arrows to control.">
+Easy Kanban GitHub Repository &lt;—
+This project is a simple web application written in Vue.js (3) for creating your own digital Kanban Boards. A Kanban board is a visual project management tool that helps teams organize and track their work.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
 
@@ -37,13 +35,13 @@ This is a simple snake game inspired by mobile games from early 2000s. Help the 
   </head>
   <body>
     <header class="app-header">
-      <a href="/kw/"><img class="app-header-avatar" src="/kw/images/kw.jpeg" alt="Krzysztof Wilczyński" /></a>
+      <a href="//:1313/"><img class="app-header-avatar" src="/images/kw.jpeg" alt="Krzysztof Wilczyński" /></a>
       <span class="app-header-title">Krzysztof Wilczyński</span>
       <nav class="app-header-menu">
-          <a class="app-header-menu-item" href="/kw/">Home</a>
+          <a class="app-header-menu-item" href="/">Home</a>
              - 
           
-          <a class="app-header-menu-item" href="/kw/projects/">Projects</a>
+          <a class="app-header-menu-item" href="/projects/">Projects</a>
       </nav>
       <p>Software Engineer with background in QA</p>
       <div class="app-header-social">
@@ -72,6 +70,35 @@ This is a simple snake game inspired by mobile games from early 2000s. Help the 
     </header>
     <div class="post-content">
       <p>Unfortunately, most of the projects I&rsquo;ve been professionally involved in cannot be cited on this page due to confidentiality agreements signed with my previous employers. However, this page will showcase my private, smaller projects.</p>
+<h2 id="easy-kanbanhttpsgithubcomkwilczyneasy_kanban"><a href="https://github.com/kwilczyn/easy_kanban">Easy Kanban</a></h2>
+<p><a href="https://github.com/kwilczyn/easy_kanban">GitHub Repository &lt;&mdash;</a></p>
+<p>This project is a simple web application written in Vue.js (3) for creating your own digital Kanban Boards.
+A Kanban board is a visual project management tool that helps teams organize and track their work. It typically consists of columns representing different stages of a workflow, with tasks or work items represented as cards that move across these columns as they progress.</p>
+<p>The backend part is written in Django REST framework and is located in a separate repository. Recently I&rsquo;ve been working on integration of the frontend part with the backend.</p>
+<p><strong>Example task flow:</strong></p>
+<p align="middle">
+<img src="https://github.com/user-attachments/assets/5bebce08-d22f-4b56-95fb-30454ccca075" alt="Task Flow"/>  
+</p>
+<p><strong>Mobile version of the layout:</strong></p>
+<p align="middle">
+<img src="https://github.com/user-attachments/assets/31c3b90b-d9eb-4b67-a41c-017848e6a6c7" alt="Mobile view"/>  
+</p>
+<p><strong>Implemented features:</strong></p>
+<ul>
+<li>the first design look for the desktop and mobile devices</li>
+<li>the animations for the basic actions like deleting lists from the board</li>
+<li>dark mode</li>
+<li>basic CRUD operations including data valiadtion</li>
+<li>drag &amp; drop operations for tasks</li>
+<li>changing the order of the lists on the board</li>
+<li>unit tests (Vitest)</li>
+<li>E2E Tests (Playwright)</li>
+</ul>
+<p><strong>In progress:</strong></p>
+<ul>
+<li>Integration with backend (branch: BackendIntegration)</li>
+<li>User authentication</li>
+</ul>
 <h2 id="vuejs-snakehttpskwilczyngithubiovue-snake"><a href="https://kwilczyn.github.io/vue-snake/">Vue.js Snake!</a></h2>
 <p><a href="https://kwilczyn.github.io/vue-snake/">Live Preview &lt;&mdash;</a><br>
 <a href="https://github.com/kwilczyn/vue-snake">GitHub Repository &lt;&mdash;</a></p>
@@ -94,13 +121,13 @@ Watch out for the walls and your tail. Enjoy!</p>
 <p>Every component for the project (for example, sliders) was prepared from scratch, excluding the map plugin (Google Maps) and plugins from external medical vendors (Znany Lekarz, Proassist).</p>
 <p>Dynamic sections (for example, &ldquo;Rezerwacje&rdquo;) use a custom loading indicator (pure CSS) while waiting for responses from external APIs.</p>
 <p>All animations are covered with unit and E2E tests, including different viewport sizes (small smartphone, tablet, desktop).</p>
-<p>The mobile version of the layout:</p>
+<p><strong>The mobile version of the layout:</strong></p>
 <!-- ![Mobile version of the layout](https://github.com/user-attachments/assets/f1ba3f9d-11db-42e9-9c6a-5b295a962baf#center "Mobile version of the layout")
 { align=center } -->
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f1ba3f9d-11db-42e9-9c6a-5b295a962baf" alt="Mobile version of the layout" width="30%">
 </p>
-<p>The desktop version of the layout:</p>
+<p><strong>The desktop version of the layout:</strong></p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4dae4fa9-d251-4d36-a8f1-0b4cdb51e69d" alt="Desktop version of the layout">
 </p>
